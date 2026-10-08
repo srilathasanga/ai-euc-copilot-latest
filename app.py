@@ -423,7 +423,7 @@ if uploaded_file is not None:
             else:
                 impact = "Medium Impact"
                 st.write("Result Data:")
-                st.json(result)
+                # st.json(result)
                 cr_file = generate_change_request(
                     result,
                     requirement,
